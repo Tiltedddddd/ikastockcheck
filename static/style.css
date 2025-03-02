@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: "DynaPuff", sans-serif;
+    font-family: "Monsterrat", sans-serif;
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 :root {
-    --background-color: #FEE6F2;
+    --background-color: #FFF9E9;
     --btn-color: #FFF9E9;
     --primary-txt-clr: black;
     --pastel-green: #64c034;
@@ -175,11 +175,11 @@ body {
 }
 
 .tab:hover{
-    background-color: #d66262;
+    background-color: #95a388;
 }
 
 .tab.active{
-    background-color: #ffa5a5;
+    background-color: #c0cfb2;
 }
 
 .hidden {
@@ -210,7 +210,7 @@ table{
 }
 
 th{
-    background-color: #ffa5a5;
+    background-color: #c0cfb2;
     color: black;
     padding: 12px;
     font-weight: bold;
@@ -235,12 +235,13 @@ tr:last-child td:last-child {
 
 td {
     padding: 10px;
-    background: #ffeded;
+    background: var(--background-color);
     border: 1.5px solid black; 
 }
 
 .table-container h3{
-    margin-top: -10px;    color: rgb(126, 202, 76);
+    margin-top: -10px;    
+    color: #7e906d;
 }
 
 
@@ -256,27 +257,26 @@ td {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
-    color: #515151;
+    color: #000000;
     justify-content: center;
     align-items: center;    
 }
 
 .modal-content{
-    background-color: #ffeded;
+    background-color: #f7f4e3;
     padding: 20px;
     border-radius: 10px;
     width: 350px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .modal-content input{
-    width: 100%;
+    width: 90%;
     height: 30px;
     padding: 5px;
     margin: 10px 0;
     border-radius: 5px;
-    border: none;
+
     background: white;
     color: black;
 }
@@ -291,18 +291,17 @@ input::-webkit-inner-spin-button {
     width: 100%;
     margin-top: 20px;
     height: 40px;
-    background-color: var(--pastel-red);
+    background-color: #79a07b;
     border: none;
     border-radius: 5px;
     color: black;
-    font-family: DynaPuff;
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .modal-content button:hover{
-    background-color: #c15d5d;
+    background-color: #3f5c4c;
 }
 
 .success-popup{
@@ -334,7 +333,7 @@ input::-webkit-inner-spin-button {
 
 /* Product cards */
 .product-card{
-    background: #ffeded;
+    background: #fee4ef;
     border: 2px solid black;
     border-radius: 12px;
     padding: 13px;
@@ -350,8 +349,8 @@ input::-webkit-inner-spin-button {
 }
 
 .remove-btn{
-    background: #ff4d4d;
-    color: white;
+    background: #5a856e;
+    color: var(--background-color);
     border: none;
     padding: 5px 8px;
     cursor: pointer;

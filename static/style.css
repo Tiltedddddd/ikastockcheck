@@ -262,7 +262,7 @@ td {
 }
 
 .modal-content{
-    background-color: #eddfb5;
+    background-color: #ffeded;
     padding: 20px;
     border-radius: 10px;
     width: 350px;
@@ -322,7 +322,7 @@ input::-webkit-inner-spin-button {
     float: right;
     font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
